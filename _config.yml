@@ -1,0 +1,38 @@
+# Site settings
+title: The Blog | Tenory
+description: "A place for musical banter"
+
+author:
+  name: "Sheen"
+  email: "Yo@goaway"
+  
+
+# Build settings
+baseurl: /blog/ # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+version: "0.0.1"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
+
+#plugins
+markdown: CommonMark
+gems: [jekyll-paginate]

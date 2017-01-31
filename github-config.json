@@ -1,0 +1,6 @@
+    {
+      "client_id": "YOUR_ID",
+      "client_secret": "YOUR_SECRET",
+      "redirect_uri": "http://dillinger.io", 
+      "callback_url": "http://dillinger.io/oauth/github"  
+    }
